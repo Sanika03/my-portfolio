@@ -46,6 +46,7 @@ const App = () => {
         <Projects />
         <Blogs />
         <Contact />
+        <p className='py-5 text-grape font-bold text-center'>Crafted with ❤️ by Sanika Suryawanshi</p>
       </main>
 
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} toggleMenu={toggleMenu} />
