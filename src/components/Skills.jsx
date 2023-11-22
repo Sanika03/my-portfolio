@@ -2,7 +2,7 @@ import React from 'react';
 import { Element } from 'react-scroll';
 
 const Skills = () => {
-  const skills = ['HTML', 'CSS', 'Tailwind CSS', 'Javascript', 'React', 'Git', 'GitHub', 'Netlify/Vercel'];
+  const skills = ['HTML', 'CSS', 'Tailwind CSS', 'Javascript', 'React', 'Git', 'GitHub', 'Figma', 'Netlify/Vercel'];
 
   return (
     <Element name="skills">
