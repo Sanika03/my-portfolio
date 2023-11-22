@@ -15,7 +15,8 @@ export default {
       },
       fontFamily: {
         'dancing-script': ['Dancing Script', 'cursive'],
-        'montserrat': ['Montserrat', 'sans-serif']
+        'montserrat': ['Montserrat', 'sans-serif'],
+        'archivo': ['Archivo Black', 'sans-serif']
       },
     },
   },
