@@ -8,7 +8,7 @@ const Skills = () => {
     <Element name="skills">
       <section id="skills" className="h-screen p-8 text-grape flex justify-center items-center">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-10">SKILLS</h2>
+          <h2 className="text-3xl font-archivo font-bold mb-10">SKILLS</h2>
           {/* Add animation for skills here */}
           <div className="flex flex-wrap gap-4 justify-center">
             {skills.map((skill, index) => (
