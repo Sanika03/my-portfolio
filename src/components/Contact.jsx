@@ -15,9 +15,6 @@ const Contact = () => {
           <a href="mailto:sanikasuryawanshi0305@gmail.com" className="mr-4">
             <FontAwesomeIcon icon={faEnvelope} size="lg" className='hover:text-black'/>
           </a>
-          <a href="tel:9834057317">
-            <FontAwesomeIcon icon={faPhone} className='hover:text-black'/>
-          </a>
         </div>
       </div>
     </section>
