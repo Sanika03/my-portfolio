@@ -15,7 +15,7 @@ const Blogs = () => {
     <Element name="blogs">
       <section id="blog" className="h-screen p-8 flex justify-center items-center">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8 text-grape">BLOG</h2>
+          <h2 className="text-3xl font-archivo font-bold mb-8 text-grape">BLOG</h2>
           {blogs.map(({ id, title, content, link }) => (
             <div key={id} className="bg-cream text-grape p-6 rounded-md shadow-md mb-4">
               <h3 className="text-xl font-bold mb-2">{title}</h3>
