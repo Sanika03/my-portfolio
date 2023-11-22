@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Menu from './components/Menu';
 import videoBackground from '../public/assets/background.mp4';
+import Footer from './components/Footer';
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -46,7 +47,7 @@ const App = () => {
         <Projects />
         <Blogs />
         <Contact />
-        <p className='py-5 text-grape font-bold text-center'>Crafted with ❤️ by Sanika Suryawanshi</p>
+        <Footer/>
       </main>
 
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} toggleMenu={toggleMenu} />
