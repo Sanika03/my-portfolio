@@ -8,7 +8,6 @@ const Nav = ({ menuOpen, toggleMenu }) => {
         <div className="text-2xl font-bold">
           Sanika Suryawanshi
         </div>
-        {/* Menu Button */}
         <div className="cursor-pointer" onClick={() => toggleMenu()}>
           {
             menuOpen ?
