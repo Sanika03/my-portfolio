@@ -19,7 +19,7 @@ const Contact = () => {
               <FontAwesomeIcon icon={faEnvelope} size="lg" className='hover:text-black'/>
             </a>
             <a href="tel:9834057317">
-              <FontAwesomeIcon icon={faPhone} size="lg" className='hover:text-black'/>
+              <FontAwesomeIcon icon={faPhone} className='hover:text-black'/>
             </a>
           </div>
         </div>
